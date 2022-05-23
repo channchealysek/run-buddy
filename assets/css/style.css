@@ -307,17 +307,3 @@ footer {
   }
   
   /* REACH OUT STYLES END */
-
-  /* homepage hero */
-.hero {
-  margin: 20px;
-  background-color: white;
-  font-size: 20px;
-  color: blue;
-}
-
-/* secondary page hero */
-.hero-secondary {
-  background-color: black;
-  color: red;
-}
