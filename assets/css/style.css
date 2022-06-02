@@ -13,8 +13,8 @@ body {
 
   /* apply styles to <header> */
 header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
+    padding: 10px 35px;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -73,13 +73,16 @@ footer {
     padding: 60px;
   }
 
-/* Hero Style Start */
-.hero {
+ .card {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+ }
+
+/* Hero Style Start */
+.hero {
+    height: 600px;
   }
 
   .hero-form {
@@ -89,7 +92,7 @@ footer {
     width: 500px;
     color: #024e76;
     position: absolute;
-    bottom: 120px;
+    bottom: 90px;
     right: 140px;
   }
 
@@ -120,8 +123,30 @@ footer {
     color: #fce138;
     background-color: #024e76;
     border: none;
+    border-radius: 20px;
     padding: 10px 20px;
     font-size: 16px;
+  }
+
+  .hero-form input {
+    border-radius: 20px;
+  }
+
+  .hero-content {
+    background-color:transparent;
+    text-align: right;
+    padding: 20px;
+    width: 650px;
+    color: white;
+    position: absolute;
+    bottom: 330px;
+    right: 780px;
+  }
+
+  .hero-content h1 {
+    padding: 10px;
+    font-size: 35px;
+    color: #fce138;
   }
 
   /* Hero Style End */
@@ -209,21 +234,27 @@ footer {
     font-size: 38px;
   }
 
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+  }
   .trainers {
     text-align: center;
   }
 
   .trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
+    width: 100%;
+    margin: 0 10px 30px 10px;
     background: #024e76;
     color: #fce138;
-    overflow: auto;
   }
+  
+
 
   .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
+    float:auto;
   }
   
   .trainer-bio {
@@ -270,11 +301,43 @@ footer {
     text-align: center;
     background: #024e76;
   }
+
+  .contact input {
+    padding: 10px;
+    border-radius: 10px;
+    border: white;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    
+  }
+
+  .contact textarea {
+    border-radius: 10px;
+    font-size: 13px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    resize: none;
+  }
+
+  .contact button {
+    border-radius: 10px;
+    border: white;
+    color: #024e76;
+    background-color: #fce138;
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: calc(100% - 20px);
+  }
   
   .contact h2 {
     color: #fce138;
   }
   
+  .reach-out-container {
+    justify-content: space-between;
+    text-align: center;
+  }
   .contact-info iframe {
     width: 400px;
     height: 400px;
