@@ -96,7 +96,8 @@ section {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
+  width: 40%;
+  margin: 3.5%;
   color: #024e76;
   position: absolute;
   bottom: 120px;
@@ -132,6 +133,22 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 } 
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
+}
+
 /* HERO STYLES END */
 
 
