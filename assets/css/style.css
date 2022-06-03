@@ -11,7 +11,7 @@ body {
   box-sizing: border-box;
 }
 
-  /* apply styles to <header> */
+/* apply styles to <header> */
 header {
     padding: 10px 35px;
     justify-content: space-between;
